@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td {
+            padding: 12px;
+        }
+        .main {
+            width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+          margin-top  : 100px;
+            background-color: aquamarine;
+            border-radius: 20px;
+        }
+        h2{
+            text-align: center;
+        }
+        input {
+            padding: 4px;
+        }
+        button {
+            padding: 8px 20px;
+            background-color: fuchsia;
+            color: #fff;
+            border-radius: 20px;
+            margin-left: 128px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <th colspan="2">
+                    <h2>Tính Chỉ Số Cân Nặng</h2>
+                </th>
+            </tr>
+            <tr>
+                <td><span>Số Cân Nặng (Kg):</td>
+                <td><input type="text" name="" id="kilogram"></span></td>
+            </tr>
+            <tr>
+                <td><span>Chiều Cao (M):</td>
+                <td><input type="text" name="" id="height"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="check()">Kiểm tra</button></td>
+            </tr>
+        </table>
+        <td><p id="result"></p><img style="width: 52px; padding-left: 42%;" src="" id="icon"></img></td>
+    </div>
+        <script src="ChiSo.js"></script>
+</body>
+
+</html>
